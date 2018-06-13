@@ -1,4 +1,4 @@
-# Hesto MultiAuth for Laravel 5.5 or higher
+# KMAKING MultiAuth for Laravel 5.6.*
 
 - `php artisan multi-auth:install {guard} -f`
 - `php artisan multi-auth:install {guard} -f --domain`
