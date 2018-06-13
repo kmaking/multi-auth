@@ -1,0 +1,8 @@
+
+Route::domain('{{singularSlug}}.' . env('APP_DOMAIN'))
+	->prefix('{{singularSlug}}')
+	->name('{{singularSlug}}.')
+	->group(function () {
+		Route::auth();
+		Route::post('/logout', '{{singularClass}}\Auth\LoginController@logout')->name('logout');
+});

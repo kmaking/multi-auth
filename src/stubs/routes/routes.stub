@@ -1,0 +1,4 @@
+<?php
+
+Route::view('/home', '{{singularSlug}}.home')->name('home');
+
