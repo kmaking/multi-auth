@@ -70,7 +70,7 @@ Using it like so: `['domain' => '{guard}.' . env('APP_DOMAIN')]`.
 php artisan migrate
 ```
 
-### Step 5: Try it
+### Step 4: Try it
 
 Go to: `http://url_to_your_project/guard/login`
 Example: `http://project/admin/login`
