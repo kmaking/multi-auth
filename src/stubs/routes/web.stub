@@ -1,5 +1,5 @@
 
-Route::prefix('{{singularSlug}}')->name('{{singularSlug}}.')->group(function () {
+Route::prefix('{{singularSlug}}')->name('{{singularSlug}}.')->namespace('{{singularClass}}')->group(function () {
 	Route::auth();
 	Route::post('/logout', '{{singularClass}}\Auth\LoginController@logout')->name('logout');
 });
