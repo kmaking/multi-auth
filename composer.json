@@ -1,6 +1,6 @@
 {
     "name": "kmaking/multi-auth",
-    "description": "Multi Auth for Laravel 5.3",
+    "description": "Multi Auth for Laravel 5.6",
     "keywords": ["auth", "multi", "laravel"],
     "license": "MIT",
     "authors": [
