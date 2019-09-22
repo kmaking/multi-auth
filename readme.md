@@ -23,7 +23,7 @@ With one simple command you can setup multi auth for your Laravel 5.6 project. T
 - Guard
 - Provider
 - Password Broker
-- Settings 
+- Settings
 
 ## Usage
 
@@ -64,7 +64,7 @@ This will allow us to use it in the routes file, prefixing it with the domain fe
 
 Using it like so: `['domain' => '{guard}.' . env('APP_DOMAIN')]`.
 
-### Step 3: Migrate new model table 
+### Step 3: Migrate new model table
 
 ```
 php artisan migrate
@@ -127,7 +127,7 @@ public function logoutToPath() {
 
 - app/{Guard}.php
   - new Model
-  
+
 - app/Notifications/{Guard}ResetPassword.php
   - reset password notification
 
@@ -142,10 +142,12 @@ public function logoutToPath() {
 
 - resources/views/{guard}/
   - views for given guard
-  
-## Changelog
 
-### Note: Never install configurations with same guard again after installed new version of package. So if you already installed your `admin` guard, don't install it again after you update package to latest version. 
+## Change Log
+
+### Note: Never install configurations with same guard again after installed new version of package. So if you already installed your `admin` guard, don't install it again after you update package to latest version.
+
+### Laravel 6.0 Support Added
 
 ## Note
 
