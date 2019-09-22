@@ -1,11 +1,11 @@
-# KMAKING MultiAuth for Laravel 5.6.*
+# KMAKing MultiAuth for Laravel 6.*
 
 - `php artisan multi-auth:install {guard} -f`
 - `php artisan multi-auth:install {guard} -f --domain`
 - `php artisan multi-auth:install {guard} {service} -f --lucid`
 
 ## What it does?
-With one simple command you can setup multi auth for your Laravel 5.6 project. The package installs:
+With one simple command you can setup multi auth for your Laravel 6 project. The package installs:
 - Model
 - Migration
 - Controllers
@@ -151,4 +151,4 @@ public function logoutToPath() {
 
 ## Note
 
-#### This package was originaly from `Hesto/multi-auth`, we improved only routes, controller and view files.
+#### This package was originally from `Hesto/multi-auth`, we improved only routes, controller and view files.

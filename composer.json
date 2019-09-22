@@ -1,6 +1,6 @@
 {
     "name": "kmaking/multi-auth",
-    "description": "Multi Auth for Laravel 6",
+    "description": "Multi Auth for Laravel 6 based on Hesto/multi-auth package",
     "keywords": ["auth", "multi", "laravel"],
     "license": "MIT",
     "authors": [
